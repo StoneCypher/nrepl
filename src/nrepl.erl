@@ -43,6 +43,9 @@ c_all(Dir) ->
 
 
 
+% c_all_with("/projects/foo/src/", "/projects/foo/includes/").
+% trailing slashes are mandatory.  unix style is probably mandatory in your lib.
+
 c_all_with(Dir, Includes) ->
     
     [ compile:file(Dir ++ File, [ {i, IDir} || IDir <- Includes ]) || File <- erl_in_dir(Dir) ].
