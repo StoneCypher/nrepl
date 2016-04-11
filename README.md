@@ -11,6 +11,36 @@ Run.  Run now.
 
 
 
+## ... wth?  ... why?
+
+So, suppose you love [proper](https://github.com/manopapad/proper).  But, also
+suppose you learned [quickcheck](http://www.quviq.com/downloads/) first.
+
+Quickcheck represents itself largely as a repl discovery tool, especially in its
+[public videos](http://www.quviq.com/demos/).  However, the authors of proper 
+seem to see it primarily as an automated execution tool under unit testing, and
+as such, the REPL setup is a footnote in their process, exceedingly fragile and
+non-portable.
+
+I don't want to go re-learn how to do it manually over and over.  So, here we 
+are.  I can now do things like
+
+```erlang
+1> nrepl:)
+```
+
+
+
+
+
+## So what's this about not-repl
+
+It's [a long story](http://ferd.ca/repl-a-bit-more-and-less-than-that.html).
+
+
+
+
+
 Polemic :neckbeard:
 -------------------
 

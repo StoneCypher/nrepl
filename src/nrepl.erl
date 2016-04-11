@@ -43,7 +43,7 @@ c_all(Dir) ->
 
 
 
-% c_all_with("/projects/foo/src/", "/projects/foo/includes/").
+% c_all_with("/projects/foo/src/", ["/projects/foo/includes/"]).
 % trailing slashes are mandatory.  unix style is probably mandatory in your lib.
 
 c_all_with(Dir, Includes) ->
