@@ -26,8 +26,14 @@ I don't want to go re-learn how to do it manually over and over.  So, here we
 are.  I can now do things like
 
 ```erlang
-1> nrepl:)
+1> nrepl:c_all_with("/projects/proper/src", ["/projects/proper/includes/"]).
 ```
+
+And, pow, permanently fixed for that shell.
+
+This is a surprisingly common need (ibrowse, cowboy, jsx, et cetera).
+
+Again: you don't want this.  You want to go learn how to fix it correctly.
 
 
 
